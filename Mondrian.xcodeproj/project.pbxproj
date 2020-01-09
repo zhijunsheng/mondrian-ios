@@ -13,6 +13,7 @@
 		A3748BD323B997DC005E188E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3748BD223B997DC005E188E /* Assets.xcassets */; };
 		A3748BD623B997DC005E188E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3748BD423B997DC005E188E /* LaunchScreen.storyboard */; };
 		A3748BE123B997DC005E188E /* MondrianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748BE023B997DC005E188E /* MondrianTests.swift */; };
+		A3748BEC23BE9209005E188E /* PictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748BEB23BE9209005E188E /* PictureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A3748BDC23B997DC005E188E /* MondrianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MondrianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3748BE023B997DC005E188E /* MondrianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondrianTests.swift; sourceTree = "<group>"; };
 		A3748BE223B997DC005E188E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3748BEB23BE9209005E188E /* PictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		A3748BCA23B997D9005E188E /* Mondrian */ = {
 			isa = PBXGroup;
 			children = (
+				A3748BEB23BE9209005E188E /* PictureView.swift */,
 				A3748BCB23B997D9005E188E /* AppDelegate.swift */,
 				A3748BCD23B997D9005E188E /* ViewController.swift */,
 				A3748BCF23B997D9005E188E /* Main.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3748BEC23BE9209005E188E /* PictureView.swift in Sources */,
 				A3748BCE23B997D9005E188E /* ViewController.swift in Sources */,
 				A3748BCC23B997D9005E188E /* AppDelegate.swift in Sources */,
 			);
