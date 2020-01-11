@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BD0DC0D23C9445500256669 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0DC0C23C9445500256669 /* CanvasView.swift */; };
 		A3748BCC23B997D9005E188E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748BCB23B997D9005E188E /* AppDelegate.swift */; };
 		A3748BCE23B997D9005E188E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748BCD23B997D9005E188E /* ViewController.swift */; };
 		A3748BD123B997D9005E188E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3748BCF23B997D9005E188E /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BD0DC0C23C9445500256669 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		A3748BC823B997D9005E188E /* Mondrian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mondrian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3748BCB23B997D9005E188E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3748BCD23B997D9005E188E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A3748BCB23B997D9005E188E /* AppDelegate.swift */,
+				5BD0DC0C23C9445500256669 /* CanvasView.swift */,
 				A3748BCD23B997D9005E188E /* ViewController.swift */,
 				A3748BCF23B997D9005E188E /* Main.storyboard */,
 				A3748BD223B997DC005E188E /* Assets.xcassets */,
@@ -199,6 +202,7 @@
 			files = (
 				A3748BCE23B997D9005E188E /* ViewController.swift in Sources */,
 				A3748BCC23B997D9005E188E /* AppDelegate.swift in Sources */,
+				5BD0DC0D23C9445500256669 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Mondrian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Mondrian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
