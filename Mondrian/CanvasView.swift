@@ -10,16 +10,19 @@ import UIKit
 
 class CanvasView: UIView {
     override func draw(_ rect: CGRect) {
-        let pen = UIBezierPath(rect: CGRect(x: 120, y: 200, width: 400, height: 700))
+        let rect = CGRect(x: 80, y: 70, width: 645, height: 231)
+        let pen = UIBezierPath(rect: rect)
         
         pen.stroke()
-        drawLine()
+        drawLine(rect: rect)
     }
     
-    func drawLine() {
+    func drawLine(rect: CGRect) {
+        let number = CGFloat(arc4random() % UInt32(rect.height))
+        let y = rect.origin.y + number
         let pen = UIBezierPath()
-        pen.move(to: CGPoint(x: 100, y: 300))
-        pen.addLine(to: CGPoint(x: 400, y: 300))
+        pen.move(to: CGPoint(x: rect.origin.x, y: y))
+        pen.addLine(to: CGPoint(x: rect.origin.x + rect.width, y: y))
         pen.stroke()
     }
 }
