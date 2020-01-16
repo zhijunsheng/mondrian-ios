@@ -39,7 +39,7 @@ class PietView: UIView {
             randomOffset = CGFloat(arc4random() % UInt32(rect.height))
             fromX = rect.origin.x
             fromY = rect.origin.y + randomOffset
-            toX = rect.origin.x + rect.width
+            toX = fromX + rect.width
             toY = fromY
             rect0 = CGRect(x: rect.origin.x, y: rect.origin.y, width: rect.width, height: randomOffset)
             rect1 = CGRect(x: rect.origin.x, y: rect.origin.y + randomOffset, width: rect.width, height: rect.height - randomOffset)
@@ -48,7 +48,7 @@ class PietView: UIView {
             fromX = rect.origin.x + randomOffset
             fromY = rect.origin.y
             toX = fromX
-            toY = rect.origin.y + rect.height
+            toY = fromY + rect.height
             rect0 = CGRect(x: rect.origin.x, y: rect.origin.y, width: randomOffset, height: rect.height)
             rect1 = CGRect(x: rect.origin.x + randomOffset, y: rect.origin.y, width: rect.width - randomOffset, height: rect.height)
         }
