@@ -13,6 +13,7 @@
 		A3748BD323B997DC005E188E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3748BD223B997DC005E188E /* Assets.xcassets */; };
 		A3748BD623B997DC005E188E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3748BD423B997DC005E188E /* LaunchScreen.storyboard */; };
 		A3748BE123B997DC005E188E /* MondrianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748BE023B997DC005E188E /* MondrianTests.swift */; };
+		E73028D723C1726C00C64C35 /* MondrianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73028D623C1726C00C64C35 /* MondrianView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A3748BDC23B997DC005E188E /* MondrianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MondrianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3748BE023B997DC005E188E /* MondrianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondrianTests.swift; sourceTree = "<group>"; };
 		A3748BE223B997DC005E188E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73028D623C1726C00C64C35 /* MondrianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondrianView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A3748BCB23B997D9005E188E /* AppDelegate.swift */,
+				E73028D623C1726C00C64C35 /* MondrianView.swift */,
 				A3748BCD23B997D9005E188E /* ViewController.swift */,
 				A3748BCF23B997D9005E188E /* Main.storyboard */,
 				A3748BD223B997DC005E188E /* Assets.xcassets */,
@@ -199,6 +202,7 @@
 			files = (
 				A3748BCE23B997D9005E188E /* ViewController.swift in Sources */,
 				A3748BCC23B997D9005E188E /* AppDelegate.swift in Sources */,
+				E73028D723C1726C00C64C35 /* MondrianView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
