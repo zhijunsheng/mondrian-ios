@@ -21,17 +21,6 @@ class MondrianView: UIView {
     func drawLine(rectangle: CGRect)  {
         let pencil = UIBezierPath()
         let randomOffset =  CGFloat(arc4random() % UInt32(rectangle.height))
-//        pencil.move(to: CGPoint(x: rectangle.origin.x, y: randomOffset + rectangle.origin.y ))
-//        pencil.addLine(to: CGPoint(x: rectangle.origin.x + rectangle.width, y: randomOffset + rectangle.origin.y))
-//
-        let rect0 = CGRect(x: rectangle.origin.x, y: rectangle.origin.y , width: rectangle.width, height: randomOffset)
-        let rect0Path = UIBezierPath(rect: rect0)
-        #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1).setFill()
-//        rect0Path.fill()
-        let rect1 = CGRect(x: rectangle.origin.x, y: rectangle.origin.y + randomOffset , width: rectangle.width, height:rectangle.height - randomOffset)
-        let rect1path = UIBezierPath(rect: rect1)
-        #colorLiteral(red: 0.9411764741, green: 0.4980392158, blue: 0.3529411852, alpha: 1).setFill()
-//        rect1path.fill()
         
         if rectangle.width > rectangle.height {
             pencil.move(to: CGPoint(x: randomOffset + rectangle.origin.x, y: rectangle.origin.y))
@@ -39,8 +28,8 @@ class MondrianView: UIView {
         } else {
             pencil.move(to: CGPoint(x: rectangle.origin.x, y: rectangle.origin.y + randomOffset))
             pencil.addLine(to: CGPoint(x: rectangle.origin.x + rectangle.width, y: rectangle.origin.y + randomOffset))
-            
         }
+        
         if rectangle.width > rectangle.height {
             let rect0 = CGRect(x: rectangle.origin.x, y: rectangle.origin.y , width:  randomOffset   , height: rectangle.height)
                     let rect0Path = UIBezierPath(rect: rect0)
@@ -50,7 +39,7 @@ class MondrianView: UIView {
                     let rect1path = UIBezierPath(rect: rect1)
                     #colorLiteral(red: 0.9411764741, green: 0.4980392158, blue: 0.3529411852, alpha: 1).setFill()
                     rect1path.fill()
-        }else{
+        } else {
             
             let rect0 = CGRect(x: rectangle.origin.x, y: rectangle.origin.y , width:  rectangle.width   , height: randomOffset)
             let rect0Path = UIBezierPath(rect: rect0)
